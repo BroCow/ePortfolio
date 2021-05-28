@@ -1,0 +1,202 @@
+
+
+.welcome_body{
+    background-color: black;
+}
+
+.summary{
+    margin-top: 20px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+nav{
+    padding: 5px;
+    background-color: lightgray;
+    max-width: 100%;
+}
+
+.navList{
+    position: relative;
+    right: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: cadetblue;
+}
+
+header{
+    max-width: 100%;
+    padding: 20px;
+    background-color: black;
+}
+
+hr{
+    color: cadetblue;
+    margin-top: 0;
+}
+ 
+h1{
+    text-align: center;
+    color: white;
+    font-size: 4em;
+}
+
+h2{
+    text-align: center;
+    font-size: 3em;
+    padding-left: 20px;
+}
+
+h3{
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+h4{
+    font-size: 1.1em;
+    margin-bottom: 0;
+}
+
+li{
+    margin-left: 20px;
+}
+
+section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sectionContent{
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+footer{
+    background-color: black;
+}
+
+
+/**** Home Page Styling ****/
+#aboutMe{
+    background-color: lightgray;
+}
+
+.aboutMe_p{
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 150%;
+}
+
+ #profilePic_section{
+    width: 350px;
+}
+
+#profilePic_div{
+    float: right;
+}
+
+#profilePic{
+    width: 300px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#aboutMe{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#github_h3{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#githubLogo_div{
+    text-align: center;
+    float: left;
+}
+
+#githubLogo{
+    width: 100px;
+    margin-left: 10px;
+}
+
+#githubLink_div{
+    text-align: center;
+    position: relative;
+    bottom: 17.5px;
+}
+
+#github_link{
+    color: #78eff5;  
+}
+
+/*** Resume Styling ***/
+.contactInfo{
+    border-top: red;
+    text-align: center;
+    font-size: 1.5em;
+}
+.resume_h2{
+    margin-bottom: 1%;
+    color: cadetblue;
+    font-size: 3em;
+}
+
+.resume_h3{
+    font-size: 2em;
+    margin-bottom: 0;
+    color: cadetblue;
+}
+
+.experience_liDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume_main{
+    border: cadetblue 3px solid;
+    margin: 5%;
+    padding: 2%;
+}
+
+
+/***  EDUCATION STYLING ***/
+.edSection{
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 5%;
+}
+
+.edImage{
+    width: 200px;
+}
+
+.edImage_div{
+    text-align: center;
+}
+
+#scEd{
+    height: 125px;
+}
+
+.edH2{
+    margin-top: 1%;
+    padding-bottom: 20px;
+}
+
+
